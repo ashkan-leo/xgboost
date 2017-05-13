@@ -15,10 +15,7 @@
 #include "./base.h"
 #include "./data.h"
 #include "./tree_model.h"
-
-#ifdef _MSC_VER
 #include <functional>
-#endif
 
 namespace xgboost {
 /*!

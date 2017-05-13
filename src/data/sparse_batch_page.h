@@ -13,6 +13,7 @@
 #include <dmlc/io.h>
 #include <vector>
 #include <algorithm>
+#include <functional>
 #include <cstring>
 #include <string>
 #include <utility>
@@ -21,10 +22,6 @@
 #if DMLC_ENABLE_STD_THREAD
 #include <dmlc/concurrency.h>
 #include <thread>
-#endif
-
-#ifdef _MSC_VER
-#include <functional>
 #endif
 
 namespace xgboost {
